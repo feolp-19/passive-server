@@ -109,17 +109,17 @@ I turned an old Mac Mini running Linux into a **passive income machine**.
 # Main menu
 [menu]
   [[menu.main]]
-    identifier = "apps"
+    identifier = "menu-apps"
     name = "💸 Apps"
     url = "/tags/apps/"
     weight = 10
   [[menu.main]]
-    identifier = "guides"
+    identifier = "menu-guides"
     name = "📚 Guides"
     url = "/tags/guide/"
     weight = 20
   [[menu.main]]
-    identifier = "about"
+    identifier = "menu-about"
     name = "ℹ️ About"
     url = "/about/"
     weight = 30
