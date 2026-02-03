@@ -46,21 +46,29 @@ enableEmoji = true
 
   # Home page
   [params.homeInfoParams]
-    Title = "💰 Turn Your Idle Resources Into Passive Income"
+    Title = "🖥️ My Mac Mini Earns $40+/Month While I Sleep"
     Content = """
-Welcome! I run a small home server (an old Mac Mini) that earns passive income 24/7.
+I turned an old Mac Mini running Linux into a **passive income machine**.
 
-Here I share exactly how I set it up and how you can do the same with:
-- **Spare bandwidth** → Grass, Honeygain, EarnFM, Traffmonetizer
-- **Extra storage** → Storj
-- **Old hardware** → Any old PC or laptop works!
+**My current earnings:**
+- 💚 Grass → ~$15/month
+- 🍯 Honeygain → ~$10/month  
+- 🎵 EarnFM → ~$5/month
+- 🚗 Traffmonetizer → ~$4/month
+- ☁️ Storj (4TB) → ~$8/month
 
-Start earning today with my guides below 👇
+**Total: ~$42/month** from hardware collecting dust!
+
+👇 **Pick an app below and start earning today** 👇
 """
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/yourusername"
+    url = "https://github.com/feolp-19"
+  
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
   # For SEO
   [params.cover]
@@ -76,6 +84,10 @@ Start earning today with my guides below 👇
     threshold = 0.4
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
+
+  # Profile mode (alternative to homeInfoParams)
+  [params.profileMode]
+    enabled = false
 
 # Main menu
 [menu]
