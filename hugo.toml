@@ -1,6 +1,6 @@
 baseURL = "https://howtoguidec.com/"
 languageCode = "en-us"
-title = "Passive Income Lab - Earn Money From Your Idle Computer"
+title = "HowToGuide - Tech Tutorials & Guides"
 theme = "PaperMod"
 
 # SEO & Performance
@@ -12,16 +12,16 @@ enableEmoji = true
 canonifyURLs = true
 enableGitInfo = true
 
-# Better URLs for SEO (clean URLs without /posts/)
+# Clean URLs
 [permalinks]
   posts = "/:slug/"
 
-# Minify for faster loading (SEO ranking factor)
+# Minify for speed
 [minify]
   disableXML = true
   minifyOutput = true
 
-# Sitemap settings
+# Sitemap
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
@@ -29,22 +29,17 @@ enableGitInfo = true
 
 [params]
   env = "production"
-  title = "Passive Income Lab"
-  description = "Learn how to earn $40+/month passive income with bandwidth sharing apps like Grass, Honeygain, EarnFM, Traffmonetizer and storage rental with Storj. Step-by-step guides for beginners."
-  keywords = ["passive income", "bandwidth sharing", "Grass app", "Honeygain review", "EarnFM", "Traffmonetizer", "Storj node", "make money online", "side hustle 2026", "earn money from old computer", "passive income apps", "bandwidth monetization"]
-  author = "Passive Income Lab"
+  title = "HowToGuide"
+  description = "Practical tech tutorials, guides, and how-tos. From passive income setups to home servers, Linux tips, and more."
+  keywords = ["tech tutorials", "how to guides", "passive income", "home server", "Linux", "self-hosting", "tech blog"]
+  author = "HowToGuide"
+  images = ["/images/og-default.png"]
   
-  # Open Graph / Social Media SEO
-  images = ["/images/og-image.png"]
-  
-  # Schema.org structured data
-  [params.schema]
-    type = "Blog"
-    name = "Passive Income Lab"
-    description = "Guides for earning passive income with bandwidth sharing and storage rental apps"
-  
-  # SEO
+  # Theme
   defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  # Features
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -53,7 +48,7 @@ enableGitInfo = true
   ShowWordCount = false
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
-  disableSpecial1stPost = false
+  disableSpecial1stPost = true
   disableScrollToTop = false
   comments = false
   hidemeta = false
@@ -61,38 +56,29 @@ enableGitInfo = true
   showtoc = true
   tocopen = false
 
-  # Home page
+  # Homepage
   [params.homeInfoParams]
-    Title = "🖥️ My Mac Mini Earns $40+/Month While I Sleep"
+    Title = "Tech Guides That Actually Work"
     Content = """
-I turned an old Mac Mini running Linux into a **passive income machine**.
+Practical tutorials for real-world tech projects.
 
-**My current earnings:**
-- 💚 Grass → ~$15/month
-- 🍯 Honeygain → ~$10/month  
-- 🎵 EarnFM → ~$5/month
-- 🚗 Traffmonetizer → ~$4/month
-- ☁️ Storj (4TB) → ~$8/month
-
-**Total: ~$42/month** from hardware collecting dust!
-
-👇 **Pick an app below and start earning today** 👇
+Whether you're setting up a home server, automating your life, or looking for ways to earn passive income with your hardware — you'll find step-by-step guides here.
 """
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/feolp-19"
-  
+
   [[params.socialIcons]]
     name = "rss"
     url = "/index.xml"
 
-  # For SEO
   [params.cover]
     hidden = false
     hiddenInList = false
     hiddenInSingle = false
 
+  # Search
   [params.fuseOpts]
     isCaseSensitive = false
     shouldSort = true
@@ -102,29 +88,30 @@ I turned an old Mac Mini running Linux into a **passive income machine**.
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
-  # Profile mode (alternative to homeInfoParams)
-  [params.profileMode]
-    enabled = false
-
-# Main menu
+# Menu
 [menu]
   [[menu.main]]
-    identifier = "menu-apps"
-    name = "💸 Apps"
-    url = "/tags/apps/"
+    identifier = "guides"
+    name = "Guides"
+    url = "/tags/guide/"
     weight = 10
   [[menu.main]]
-    identifier = "menu-guides"
-    name = "📚 Guides"
-    url = "/tags/guide/"
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/tags/tutorial/"
     weight = 20
   [[menu.main]]
-    identifier = "menu-about"
-    name = "ℹ️ About"
+    identifier = "about"
+    name = "About"
     url = "/about/"
     weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
 
-# Outputs for SEO
+# Outputs
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -134,14 +121,14 @@ I turned an old Mac Mini running Linux into a **passive income machine**.
   tag = "tags"
   series = "series"
 
-# Markup settings
+# Markup
 [markup]
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    lineNos = false
+    lineNos = true
     noClasses = false
-    style = "monokai"
+    style = "dracula"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

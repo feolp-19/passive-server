@@ -1,42 +1,26 @@
 ---
 title: "About"
-description: "Learn about my passive income journey and how I turned an old Mac Mini into a money-making machine"
-date: 2026-02-03
+description: "About HowToGuide - practical tech tutorials and guides"
 hidemeta: true
 ---
 
-## Hey there! 👋
+## About This Site
 
-I'm a tech enthusiast who discovered that my old hardware could actually **earn money while I sleep**.
+HowToGuide is a collection of practical tutorials and guides for everyday tech projects.
 
-### My Setup
+### What You'll Find Here
 
-I run an old **Mac Mini with Linux Mint XFCE** that works 24/7 generating passive income through:
+- **Home Server Guides** - Self-hosting, Linux setups, Docker configurations
+- **Passive Income** - Bandwidth sharing, storage rental, and monetizing spare hardware
+- **Tutorials** - Step-by-step walkthroughs with real-world examples
+- **Tech Tips** - Solutions to problems I've encountered and solved
 
-- **Bandwidth sharing apps** - Grass, Honeygain, EarnFM, Traffmonetizer
-- **Storage rental** - A 4TB Seagate external drive connected to Storj
+### The Setup Behind This Site
 
-### Why I Started This Blog
+This blog runs on Hugo (a static site generator) and is hosted for free on GitHub Pages. The domain is managed through Cloudflare.
 
-After getting my setup running smoothly, friends kept asking me how to do the same. So I decided to document everything here!
+I also run a home server (Mac Mini with Linux) that handles various passive income applications and services.
 
-On this blog you'll find:
+### Get in Touch
 
-- ✅ **Step-by-step guides** for each app
-- ✅ **Real earnings reports** (transparency is key!)
-- ✅ **Tips & tricks** to maximize your income
-- ✅ **Hardware recommendations** for beginners
-
-### My Philosophy
-
-- **Use what you have** - Old laptops, mini PCs, Raspberry Pis all work
-- **Start small** - Even one app is better than zero passive income
-- **Be patient** - This isn't get-rich-quick, it's steady extra income
-
-### Want to Start?
-
-Check out my [Getting Started Guide](/posts/getting-started/) or browse the [Apps section](/tags/apps/) to pick your first passive income app!
-
----
-
-*Have questions? Feel free to reach out!*
+Found an error? Have a suggestion? Feel free to open an issue on [GitHub](https://github.com/feolp-19).
