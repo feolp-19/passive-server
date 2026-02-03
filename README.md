@@ -1,5 +1,7 @@
 # Passive Income Lab - Hugo Blog
 
+> Mac Mini passive server blog - earn money from your unused bandwidth and storage!
+
 A blog about earning passive income with bandwidth sharing and storage rental apps.
 
 ## 🚀 Quick Start
@@ -13,8 +15,8 @@ A blog about earning passive income with bandwidth sharing and storage rental ap
 
 ```bash
 # Clone with submodules (for the theme)
-git clone --recursive https://github.com/YOUR_USERNAME/passive-income-blog.git
-cd passive-income-blog
+git clone --recursive https://github.com/feolp-19/passive-server.git
+cd passive-server
 
 # If you forgot --recursive, add the theme:
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
@@ -46,7 +48,7 @@ Then edit `content/posts/my-new-post.md`.
 ## 📁 Structure
 
 ```
-passive-income-blog/
+passive-server/
 ├── content/
 │   ├── posts/           # Blog posts
 │   │   ├── getting-started.md
@@ -77,7 +79,7 @@ passive-income-blog/
 ### Custom Domain (with Cloudflare)
 
 1. In GitHub repo settings, add your custom domain
-2. In Cloudflare, add a CNAME record pointing to `YOUR_USERNAME.github.io`
+2. In Cloudflare, add a CNAME record pointing to `feolp-19.github.io`
 3. Update `baseURL` in `hugo.toml`
 
 ## 📝 Writing Posts
