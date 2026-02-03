@@ -1,12 +1,26 @@
 /* Custom styles for Passive Income Lab */
 
-/* Modern color scheme */
+/* Modern color scheme - Money Green Theme */
 :root {
   --primary: #10b981;
   --primary-dark: #059669;
   --accent: #f59e0b;
+  --money-green: #22c55e;
+  --money-gold: #eab308;
   --gradient-start: #10b981;
   --gradient-end: #3b82f6;
+}
+
+/* Dark mode overrides */
+.dark {
+  --primary: #34d399;
+  --gradient-start: #34d399;
+  --gradient-end: #60a5fa;
+}
+
+/* Smooth page background */
+body {
+  background: linear-gradient(180deg, var(--theme) 0%, var(--theme) 100%);
 }
 
 /* Hero section styling */
@@ -242,25 +256,415 @@ html {
   font-weight: bold;
 }
 
-/* Home info box */
+/* Home info box - Hero section */
 .home-info {
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  border-radius: 16px;
-  padding: 2.5rem;
+  background: linear-gradient(135deg, #059669 0%, #10b981 50%, #3b82f6 100%);
+  border-radius: 20px;
+  padding: 3rem;
   color: white;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 20px 40px rgba(16, 185, 129, 0.3);
+  margin-bottom: 2rem;
 }
 
 .home-info::before {
-  content: "💰🖥️📈";
+  content: "💰";
   position: absolute;
-  font-size: 60px;
-  right: 20px;
+  font-size: 120px;
+  right: -10px;
+  top: -20px;
+  opacity: 0.15;
+  animation: float 3s ease-in-out infinite;
+}
+
+.home-info::after {
+  content: "🖥️";
+  position: absolute;
+  font-size: 80px;
+  right: 80px;
   bottom: -10px;
-  opacity: 0.2;
+  opacity: 0.15;
+  animation: float 3s ease-in-out infinite 0.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 .home-info .entry-content {
   color: rgba(255,255,255,0.95);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.home-info h1 {
+  color: white !important;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Earnings highlight in hero */
+.home-info strong {
+  color: #fef08a !important;
+  font-weight: 700;
+}
+
+/* App cards grid */
+.post-entry {
+  background: var(--entry);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.post-entry::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--gradient-end));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.12);
+  border-color: var(--primary);
+}
+
+.post-entry:hover::before {
+  opacity: 1;
+}
+
+/* Post titles */
+.post-entry .entry-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.post-entry:hover .entry-title {
+  color: var(--primary);
+}
+
+/* Animated arrow on hover */
+.post-entry::after {
+  content: "→";
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%) translateX(-10px);
+  font-size: 1.5rem;
+  color: var(--primary);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.post-entry:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Earnings badge style */
+.post-entry .entry-hint {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--money-green), #16a34a);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Featured/first post */
+.first-entry {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.first-entry:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15));
+}
+
+/* CTA Buttons that pop */
+article a[href*="REFERRAL"],
+article a[href*="Sign up"],
+.post-content p > a:first-child:last-child {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--money-green), #16a34a);
+  color: white !important;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+  margin: 1rem 0;
+}
+
+article a[href*="REFERRAL"]:hover,
+article a[href*="Sign up"]:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 8px 25px rgba(34, 197, 94, 0.5);
+}
+
+/* Pulsing effect for main CTAs */
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); }
+  50% { box-shadow: 0 4px 30px rgba(34, 197, 94, 0.6); }
+}
+
+article a[href*="REFERRAL"] {
+  animation: pulse-green 2s infinite;
+}
+
+/* Money-themed highlights */
+mark, .highlight-earnings {
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.3), rgba(34, 197, 94, 0.3));
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+/* Styled blockquotes for tips */
+blockquote {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.05));
+  border-left: 4px solid var(--primary);
+  border-radius: 0 12px 12px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: normal;
+}
+
+blockquote::before {
+  content: "💡";
+  margin-right: 0.5rem;
+}
+
+/* Fancy header */
+.nav {
+  backdrop-filter: blur(10px);
+  background: rgba(var(--theme-rgb), 0.8) !important;
+}
+
+.logo a {
+  font-weight: 800;
+  font-size: 1.3rem;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Menu hover effects */
+#menu a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+#menu a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+#menu a:hover::after {
+  width: 100%;
+}
+
+/* Tags with gradient */
+.post-tags a {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white !important;
+  padding: 0.35rem 1rem;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.post-tags a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Tables - clean and modern */
+table {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+th {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+  color: white !important;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background: var(--code-bg);
+}
+
+tr:hover {
+  background: rgba(16, 185, 129, 0.05);
+}
+
+/* Star ratings in tables */
+td:last-child {
+  color: var(--money-gold);
+}
+
+/* Scroll to top button */
+.top-link {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white !important;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+.top-link:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  background: var(--code-bg);
+  padding: 2rem;
+  border-radius: 20px 20px 0 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+/* Reading progress indicator */
+.post-content {
+  position: relative;
+}
+
+/* TOC improvements */
+.toc {
+  background: var(--code-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.toc a:hover {
+  color: var(--primary);
+}
+
+/* List checkmarks */
+.post-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-content ul li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--money-green);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Numbered lists keep numbers */
+.post-content ol {
+  padding-left: 1.5rem;
+}
+
+.post-content ol li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content ol li::before {
+  content: none;
+}
+
+/* Code blocks */
+.highlight {
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+pre {
+  padding: 1.25rem !important;
+}
+
+/* Smooth animations */
+* {
+  transition-property: color, background-color, border-color, box-shadow, transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+/* Skip transition for specific elements */
+.post-entry, a, button, .top-link {
+  transition-duration: 0.3s;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .home-info {
+    padding: 2rem 1.5rem;
+  }
+  
+  .home-info h1 {
+    font-size: 1.5rem;
+  }
+  
+  .home-info::before,
+  .home-info::after {
+    display: none;
+  }
+  
+  .post-entry::after {
+    display: none;
+  }
+  
+  .post-entry {
+    padding: 1.25rem;
+  }
 }
