@@ -1,14 +1,23 @@
 ---
-title: "Storj: Rent Out Your Extra Hard Drive Space"
+title: "Storj Node Setup Guide 2026: Earn $4/TB/Month Renting Storage"
 date: 2026-01-30
-description: "Complete Storj node operator guide. Turn your unused hard drive storage into passive income by joining the decentralized cloud network."
+description: "Complete Storj node operator guide with real earnings. Learn how to earn $3-5 per TB per month renting your unused hard drive space on the decentralized cloud."
 tags: ["apps", "guide", "storj", "storage"]
 categories: ["Apps"]
+keywords: ["Storj node setup", "Storj earnings 2026", "Storj node profitability", "decentralized storage income", "rent hard drive space", "Storj review"]
 cover:
   image: "/images/storj.png"
-  alt: "Storj decentralized storage"
+  alt: "Storj node setup guide and earnings 2026"
+  caption: "Storj - Rent your unused storage for passive income"
 ShowToc: true
 TocOpen: true
+faq:
+  - question: "How much can you earn running a Storj node?"
+    answer: "Earnings are typically $3-5 per TB per month, combining storage fees and egress bandwidth. A 4TB drive can earn $8-15/month when full."
+  - question: "How long does it take for a Storj node to fill up?"
+    answer: "New nodes take 6-12 months to fill up as they build reputation on the network. Be patient - earnings grow over time."
+  - question: "Can I use an external USB drive for Storj?"
+    answer: "Yes, external USB drives work great for Storj. USB 3.0 or faster is recommended for better performance."
 ---
 
 ## What is Storj?

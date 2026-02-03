@@ -1,6 +1,6 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://feolp-19.github.io/passive-server/"
 languageCode = "en-us"
-title = "Passive Income Lab"
+title = "Passive Income Lab - Earn Money From Your Idle Computer"
 theme = "PaperMod"
 
 # SEO & Performance
@@ -9,22 +9,39 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
+canonifyURLs = true
+enableGitInfo = true
 
-# Better URLs for SEO
+# Better URLs for SEO (clean URLs without /posts/)
 [permalinks]
   posts = "/:slug/"
 
-# Minify output
+# Minify for faster loading (SEO ranking factor)
 [minify]
   disableXML = true
   minifyOutput = true
 
+# Sitemap settings
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
   env = "production"
   title = "Passive Income Lab"
-  description = "Learn how to earn passive income with your spare bandwidth, storage, and old hardware. Guides for Grass, Honeygain, EarnFM, Traffmonetizer, Storj and more."
-  keywords = ["passive income", "bandwidth sharing", "Grass", "Honeygain", "EarnFM", "Traffmonetizer", "Storj", "make money online", "side hustle"]
+  description = "Learn how to earn $40+/month passive income with bandwidth sharing apps like Grass, Honeygain, EarnFM, Traffmonetizer and storage rental with Storj. Step-by-step guides for beginners."
+  keywords = ["passive income", "bandwidth sharing", "Grass app", "Honeygain review", "EarnFM", "Traffmonetizer", "Storj node", "make money online", "side hustle 2026", "earn money from old computer", "passive income apps", "bandwidth monetization"]
   author = "Passive Income Lab"
+  
+  # Open Graph / Social Media SEO
+  images = ["/images/og-image.png"]
+  
+  # Schema.org structured data
+  [params.schema]
+    type = "Blog"
+    name = "Passive Income Lab"
+    description = "Guides for earning passive income with bandwidth sharing and storage rental apps"
   
   # SEO
   defaultTheme = "auto"
