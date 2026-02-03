@@ -1,0 +1,118 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Passive Income Lab"
+theme = "PaperMod"
+
+# SEO & Performance
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+# Better URLs for SEO
+[permalinks]
+  posts = "/:slug/"
+
+# Minify output
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Passive Income Lab"
+  description = "Learn how to earn passive income with your spare bandwidth, storage, and old hardware. Guides for Grass, Honeygain, EarnFM, Traffmonetizer, Storj and more."
+  keywords = ["passive income", "bandwidth sharing", "Grass", "Honeygain", "EarnFM", "Traffmonetizer", "Storj", "make money online", "side hustle"]
+  author = "Passive Income Lab"
+  
+  # SEO
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  # Home page
+  [params.homeInfoParams]
+    Title = "💰 Turn Your Idle Resources Into Passive Income"
+    Content = """
+Welcome! I run a small home server (an old Mac Mini) that earns passive income 24/7.
+
+Here I share exactly how I set it up and how you can do the same with:
+- **Spare bandwidth** → Grass, Honeygain, EarnFM, Traffmonetizer
+- **Extra storage** → Storj
+- **Old hardware** → Any old PC or laptop works!
+
+Start earning today with my guides below 👇
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+  # For SEO
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# Main menu
+[menu]
+  [[menu.main]]
+    identifier = "apps"
+    name = "💸 Apps"
+    url = "/tags/apps/"
+    weight = 10
+  [[menu.main]]
+    identifier = "guides"
+    name = "📚 Guides"
+    url = "/tags/guide/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "ℹ️ About"
+    url = "/about/"
+    weight = 30
+
+# Outputs for SEO
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Markup settings
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = false
+    style = "monokai"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
