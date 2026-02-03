@@ -30,6 +30,10 @@ enableGitInfo = true
 [params]
   env = "production"
   title = "HowToGuide"
+  
+  # Google Analytics
+  [params.analytics]
+    google = "G-XQDB0TXY1W"
   description = "Practical tech tutorials, guides, and how-tos. From passive income setups to home servers, Linux tips, and more."
   keywords = ["tech tutorials", "how to guides", "passive income", "home server", "Linux", "self-hosting", "tech blog"]
   author = "HowToGuide"
