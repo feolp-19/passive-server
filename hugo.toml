@@ -96,15 +96,15 @@ Whether you're setting up a home server, automating your life, or looking for wa
 # Menu
 [menu]
   [[menu.main]]
+    identifier = "apps"
+    name = "Apps"
+    url = "/apps/"
+    weight = 5
+  [[menu.main]]
     identifier = "guides"
     name = "Guides"
     url = "/tags/guide/"
     weight = 10
-  [[menu.main]]
-    identifier = "tutorials"
-    name = "Tutorials"
-    url = "/tags/tutorial/"
-    weight = 20
   [[menu.main]]
     identifier = "about"
     name = "About"
