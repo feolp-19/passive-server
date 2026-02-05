@@ -10,7 +10,7 @@ ShowToc: true
 TocOpen: true
 faq:
   - question: "What wallet do I need for Grass?"
-    answer: "You need Phantom Wallet, not MetaMask. Grass tokens are on the Solana blockchain, not Ethereum."
+    answer: "You need Phantom Wallet. Grass tokens are on the Solana blockchain."
   - question: "Does Grass slow down my internet?"
     answer: "No. Grass only uses leftover bandwidth that you're not using. It's extremely lightweight and won't affect your browsing or streaming."
   - question: "How much can I earn with Grass?"
@@ -120,15 +120,7 @@ This is where most beginners get confused. Pay attention.
 
 Grass doesn't pay in dollars. It pays in **$GRASS tokens** on the **Solana blockchain**.
 
-### You Cannot Use MetaMask
-
-If you're familiar with crypto, your first instinct might be to use MetaMask. **Don't.**
-
-MetaMask is for Ethereum. Grass tokens are on Solana. They're completely different blockchains.
-
-> ⚠️ **WARNING:** If you send GRASS tokens to an Ethereum address (like a MetaMask wallet), they will be **lost forever**. There is no way to recover them. Make sure you're using a Solana wallet.
-
-### The Solution: Phantom Wallet
+### Setting Up Phantom Wallet
 
 You need **Phantom Wallet** — the most popular Solana wallet.
 
