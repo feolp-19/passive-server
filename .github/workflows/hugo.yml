@@ -7,6 +7,10 @@ on:
     branches:
       - main
 
+  # Scheduled rebuild for future-dated posts (daily at 6am UTC)
+  schedule:
+    - cron: '0 6 * * *'
+
   # Allows you to run this workflow manually
   workflow_dispatch:
 
