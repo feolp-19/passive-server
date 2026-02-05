@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "HowToGuide - Tech Tutorials & Guides"
 theme = "PaperMod"
 
+# Google Analytics 4
+[services]
+  [services.googleAnalytics]
+    id = "G-XQDB0TXY1W"
+
 # SEO & Performance
 enableRobotsTXT = true
 buildDrafts = false
