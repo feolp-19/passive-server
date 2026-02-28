@@ -1,24 +1,13 @@
 ---
 title: "How I Turned an Old Mac Mini Into a Passive Income Machine"
 date: 2026-02-03
-lastmod: 2026-02-03
-description: "I asked AI for a $0 business plan. It told me to build a home server. Here's how an old Mac Mini became the foundation of my passive income journey in 2026."
+description: "I asked AI for a $0 business plan. It told me to build a home server. Here's how an old Mac Mini became the foundation of my passive income journey."
 slug: "old-mac-mini-passive-income-machine"
 tags: ["guide", "passive-income", "home-server", "linux"]
 categories: ["Journey"]
-keywords: ["Passive Income 2026", "Home Server", "Linux Mint XFCE", "Self-hosting", "Mac Mini server", "make money with old computer", "passive income no investment", "bandwidth sharing apps"]
+keywords: ["Passive Income 2026", "Home Server", "Linux Mint XFCE", "Self-hosting", "Mac Mini server"]
 ShowToc: true
 TocOpen: true
-weight: 1
-faq:
-  - question: "Can you really make passive income from an old computer?"
-    answer: "Yes. By running bandwidth sharing apps like Grass, Honeygain, and Storj, an old Mac Mini or PC can earn $50-80 per month with minimal effort."
-  - question: "Why use Linux Mint XFCE for a home server?"
-    answer: "Linux Mint XFCE is lightweight, stable, and uses minimal RAM. It's perfect for older hardware that would struggle with macOS or Windows."
-  - question: "How much does it cost to start?"
-    answer: "Zero. You can use old hardware, free Linux software, and free-tier hosting services like GitHub Pages and Cloudflare."
-  - question: "How long until I see earnings?"
-    answer: "Bandwidth apps start earning within days. Storj takes 6-12 months to fill up but provides steady income once established."
 ---
 
 In early 2026, I made a decision: I wanted to build a passive income stream.
@@ -125,16 +114,16 @@ The old Mac Mini isn't just hosting this blog. It's become a full passive income
 
 | Application | Purpose |
 |-------------|---------|
-| Grass | Bandwidth sharing |
-| Honeygain | Bandwidth sharing |
-| EarnFM | Bandwidth sharing |
+| [Grass](/grass-passive-income-guide/) | Bandwidth sharing |
+| [Honeygain](/honeygain-docker-setup-guide/) | Bandwidth sharing |
+| [EarnFM](/earnfm-docker-setup-guide/) | Bandwidth sharing |
 | Traffmonetizer | Bandwidth sharing |
-| IPRoyal Pawns | Bandwidth sharing |
+| Pawns.app | Bandwidth sharing |
 | PacketStream | Bandwidth sharing |
 | Repocket | Bandwidth sharing |
-| Storj (3.3 TB) | Decentralized storage |
+| [Storj](/storj-node-setup-guide/) (3.3 TB) | Decentralized storage |
 
-**Estimated earnings: $60-80/month** — from hardware that was literally gathering dust.
+Check out all the [apps I'm running](/apps/) with signup links and bonuses.
 
 ---
 

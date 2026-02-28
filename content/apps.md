@@ -34,12 +34,12 @@ The most established bandwidth sharing platform. Been around since 2018 with rel
 
 ---
 
-### IPRoyal Pawns
+### Pawns.app
 💰 **$3 signup bonus!**
 
 Solid earner with low minimum payout ($5). Pays via PayPal, Bitcoin, or gift cards.
 
-👉 **[Join IPRoyal Pawns + $3 Bonus](https://pawns.app/?r=18918724)**
+👉 **[Join Pawns.app + $3 Bonus](https://pawns.app/?r=18918724)**
 
 ---
 
