@@ -49,17 +49,17 @@ Here are the real numbers. No fluff. No inflated estimates.
 
 ### The Winners
 
-**Grass** is the clear leader. It earns more than all other apps combined. The catch is that it pays in crypto tokens, so the actual value fluctuates. But even conservatively, it's producing $15+ per month.
+**[Grass](/grass-passive-income-guide/)** is the clear leader. It earns more than all other apps combined. The catch is that it pays in crypto tokens, so the actual value fluctuates. But even conservatively, it's producing $15+ per month.
 
-**Honeygain** came in second at $4.30. It's steady and reliable. The JumpTask crypto mode gives a 10% bonus, which I recommend enabling.
+**[Honeygain](/honeygain-docker-setup-guide/)** came in second at $4.30. It's steady and reliable. The JumpTask crypto mode gives a 10% bonus, which I recommend enabling.
 
 ### The Middle Pack
 
-**Storj** only earned $0.21 this month, but that's expected. My node is still in the vetting phase — the network is building trust before sending real data. Storj is a slow burn. In 3-6 months, I expect this to grow significantly as my 3.3TB node fills up.
+**[Storj](/storj-node-setup-guide/)** only earned $0.21 this month, but that's expected. My node is still in the vetting phase — the network is building trust before sending real data. Storj is a slow burn. In 3-6 months, I expect this to grow significantly as my 3.3TB node fills up.
 
 ### The Small Earners
 
-**Pawns.app**, **EarnFM**, **Traffmonetizer**, **PacketStream**, and **Repocket** each earned less than $0.20.
+**Pawns.app**, **[EarnFM](/earnfm-docker-setup-guide/)**, **Traffmonetizer**, **PacketStream**, and **Repocket** each earned less than $0.20.
 
 Are they worth running? Individually, no. Together, they add a few dollars per month at zero extra cost. And they're already set up — there's no reason to remove them.
 
@@ -111,7 +111,7 @@ This is the real multiplier. Every person who signs up through my referral links
 
 Even 10 active referrals could double or triple my monthly income.
 
-**Action:** Keep publishing guides. Drive traffic to the blog. SEO takes time but compounds.
+**Action:** Keep publishing [guides](/tags/guide/). Drive traffic to the blog. SEO takes time but compounds.
 
 ### 3. Add More Devices (Potential: +$20-40/month)
 
@@ -153,9 +153,9 @@ The honest answer: **$1,200-2,600 is realistic. $5,000 requires significant refe
 
 ## What I Learned in Month 1
 
-1. **Grass dominates.** It's the highest earner by far. If you only run one app, make it Grass.
-2. **Stacking works.** Eight apps together earn more than any single app alone.
-3. **Patience is required.** Storj, vetting, SEO — everything valuable takes months.
+1. **[Grass](/grass-passive-income-guide/) dominates.** It's the highest earner by far. If you only run one app, make it Grass.
+2. **Stacking works.** Eight apps together earn more than any single app alone. See my [Honeygain](/honeygain-docker-setup-guide/) and [EarnFM](/earnfm-docker-setup-guide/) guides for how to set them up.
+3. **Patience is required.** [Storj](/storj-node-setup-guide/), vetting, SEO — everything valuable takes months.
 4. **The real money is in referrals.** App earnings from one device have a ceiling. Referrals don't.
 5. **Keep your server stable.** Downtime kills Storj reputation and Grass earnings. Fix auto-mount issues, use Docker restart policies, and don't reboot unless necessary.
 
