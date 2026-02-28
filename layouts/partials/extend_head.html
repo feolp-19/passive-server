@@ -1,0 +1,119 @@
+{{- /* SEO Enhancements */ -}}
+
+{{- /* JSON-LD Structured Data for Articles */ -}}
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description | default .Summary | plainify | truncate 160 }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author | default .Site.Title }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}images/logo.png"
+    }
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{- if .Params.cover.image }},
+  "image": "{{ .Site.BaseURL }}{{ .Params.cover.image }}"
+  {{- end }}
+}
+</script>
+{{ end }}
+
+{{- /* JSON-LD for Homepage */ -}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Passive Income Lab",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "sameAs": [
+    "https://github.com/feolp-19"
+  ]
+}
+</script>
+{{ end }}
+
+{{- /* HowTo Schema for Guide posts */ -}}
+{{ if and .IsPage (in .Params.tags "guide") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description | default .Summary | plainify | truncate 160 }}",
+  "totalTime": "PT{{ .ReadingTime }}M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Computer or Laptop"
+    },
+    {
+      "@type": "HowToTool", 
+      "name": "Internet Connection"
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{- /* FAQ Schema - can be added to posts with faq front matter */ -}}
+{{ if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $e := .Params.faq }}
+    {{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ .question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ .answer }}"
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{- /* Additional Meta Tags for SEO */ -}}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{- /* Preconnect for performance */ -}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
