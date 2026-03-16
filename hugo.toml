@@ -9,7 +9,7 @@ theme = "PaperMod"
     id = "G-XQDB0TXY1W"
 
 # SEO & Performance
-enableRobotsTXT = true
+enableRobotsTXT = false
 buildDrafts = false
 buildFuture = false
 buildExpired = false
