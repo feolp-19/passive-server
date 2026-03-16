@@ -1,6 +1,6 @@
 ---
 title: "Income Stream #6: PacketStream — Simple, Reliable, No Frills"
-date: 2026-04-05T09:00:00+01:00
+date: 2026-04-12T09:00:00+01:00
 description: "Complete PacketStream Docker setup guide. A no-nonsense bandwidth sharing app with PayPal payouts and easy Docker deployment."
 slug: "packetstream-setup-guide"
 tags: ["guide", "passive-income", "docker", "packetstream"]

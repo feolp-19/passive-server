@@ -1,6 +1,6 @@
 ---
 title: "App Stacking: How I Run 8 Passive Income Apps on One Server Without Conflicts"
-date: 2026-04-19T09:00:00+01:00
+date: 2026-04-26T09:00:00+01:00
 description: "Learn how to run multiple passive income apps simultaneously on one server using Docker. No conflicts, no slowdowns, maximum earnings."
 slug: "app-stacking-passive-income"
 tags: ["guide", "passive-income", "docker", "home-server"]

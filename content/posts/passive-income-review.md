@@ -1,6 +1,6 @@
 ---
 title: "Is Passive Income From Bandwidth Apps Worth It? (Honest Review After Months of Running)"
-date: 2026-05-24T09:00:00+01:00
+date: 2026-05-31T09:00:00+01:00
 description: "An honest long-term review of running 8 passive income apps on a home server. What worked, what didn't, and whether it's actually worth your time."
 slug: "passive-income-honest-review"
 tags: ["guide", "passive-income", "reviews"]

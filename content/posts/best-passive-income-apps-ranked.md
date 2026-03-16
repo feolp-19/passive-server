@@ -1,6 +1,6 @@
 ---
 title: "Which Passive Income App Pays the Most? (Ranked by Real Earnings)"
-date: 2026-05-03T09:00:00+01:00
+date: 2026-05-10T09:00:00+01:00
 description: "I've run 8 passive income apps for 3 months on the same server. Here's which ones actually pay the most, ranked by real earnings data."
 slug: "best-passive-income-apps-ranked"
 tags: ["guide", "passive-income", "reviews"]

@@ -1,6 +1,6 @@
 ---
 title: "Docker for Beginners: Run Anything on Your Home Server (No Experience Needed)"
-date: 2026-05-17T09:00:00+01:00
+date: 2026-05-24T09:00:00+01:00
 description: "A beginner-friendly Docker tutorial. Learn what containers are, how to use them, and why Docker is the best way to run apps on your home server."
 slug: "docker-beginners-guide"
 tags: ["guide", "docker", "linux", "home-server"]

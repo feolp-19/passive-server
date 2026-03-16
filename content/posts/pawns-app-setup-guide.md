@@ -1,6 +1,6 @@
 ---
 title: "Income Stream #5: Pawns.app — Low Payout Threshold, Easy Cash"
-date: 2026-03-22T09:00:00+01:00
+date: 2026-03-29T09:00:00+01:00
 description: "Complete Pawns.app setup guide. Low $5 payout threshold, multiple cash-out options, and a $3 signup bonus make this a solid addition to your passive income stack."
 slug: "pawns-app-setup-guide"
 tags: ["guide", "passive-income", "docker", "pawns"]

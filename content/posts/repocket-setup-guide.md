@@ -1,6 +1,6 @@
 ---
 title: "Income Stream #7: Repocket — The Newest Addition to My Stack"
-date: 2026-04-26T09:00:00+01:00
+date: 2026-05-03T09:00:00+01:00
 description: "Complete Repocket Docker setup guide. A newer bandwidth sharing platform worth adding to your passive income stack."
 slug: "repocket-setup-guide"
 tags: ["guide", "passive-income", "docker", "repocket"]

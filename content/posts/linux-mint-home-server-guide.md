@@ -1,6 +1,6 @@
 ---
 title: "How to Set Up a Linux Mint Home Server From Scratch (Complete Guide)"
-date: 2026-03-29T09:00:00+01:00
+date: 2026-04-05T09:00:00+01:00
 description: "Step-by-step guide to turning any old computer into a Linux Mint home server. From installation to Docker, SSH, and running it 24/7."
 slug: "linux-mint-home-server-setup"
 tags: ["guide", "linux", "home-server", "docker"]
