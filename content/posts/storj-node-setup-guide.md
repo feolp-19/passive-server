@@ -1,11 +1,11 @@
 ---
-title: "Found Money: How I Turned an Old 4TB Drive into a Crypto Node (Storj)"
+title: "Storj Node Setup Guide [2026] — Earn Crypto With an Old Hard Drive"
 date: 2026-03-01T09:00:00+01:00
-description: "Complete Storj node setup guide for Linux. Learn how to monetize an unused hard drive by running a decentralized storage node and earning STORJ tokens."
+description: "Step-by-step Storj node setup on Linux with Docker. I turned a dusty 4TB drive into $5-10/month in STORJ tokens. Full guide from identity to first payout."
 slug: "storj-node-setup-guide"
 tags: ["guide", "passive-income", "docker", "storj", "crypto"]
 categories: ["Crypto", "Storage", "Passive Income"]
-keywords: ["Storj node setup", "monetize unused hard drive", "Storj docker linux", "passive income hdd mining", "decentralized storage", "STORJ tokens", "Linux Mint server", "Storj vetting"]
+keywords: ["Storj node setup 2026", "Storj docker linux", "btc to storj", "monetize unused hard drive", "passive income hdd mining", "decentralized storage", "STORJ tokens", "Linux Mint server", "Storj vetting"]
 ShowToc: true
 TocOpen: true
 faq:

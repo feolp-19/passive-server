@@ -1,11 +1,11 @@
 ---
-title: "Income Stream #3: Diversifying with EarnFM (The 'Quiet' Earner)"
+title: "EarnFM Docker Setup Guide [2026] — Install in 2 Minutes on Linux"
 date: 2026-02-22T09:00:00+01:00
-description: "Complete EarnFM Docker setup guide. Learn why diversifying your passive income stack matters and how to add EarnFM to your home server."
+description: "Step-by-step EarnFM Docker install for Linux home servers. Copy-paste the command and start earning passive income from unused bandwidth today."
 slug: "earnfm-docker-setup-guide"
 tags: ["guide", "passive-income", "docker", "earnfm"]
 categories: ["Passive Income", "Docker", "Reviews"]
-keywords: ["EarnFM review", "EarnFM docker", "passive income 2026", "internet sharing apps", "make money online linux", "EarnFM token", "bandwidth sharing apps"]
+keywords: ["EarnFM docker", "EarnFM review 2026", "EarnFM docker setup", "passive income 2026", "internet sharing apps", "make money online linux", "EarnFM token", "bandwidth sharing apps"]
 ShowToc: true
 TocOpen: true
 faq:

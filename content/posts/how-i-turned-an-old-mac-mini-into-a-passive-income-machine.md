@@ -1,11 +1,11 @@
 ---
-title: "How I Turned an Old Mac Mini Into a Passive Income Machine"
+title: "How to Make Money With a Mac Mini [8 Apps Running 24/7]"
 date: 2026-02-03
-description: "I asked AI for a $0 business plan. It told me to build a home server. Here's how an old Mac Mini became the foundation of my passive income journey."
+description: "I turned an old Mac Mini into a $30+/month passive income server running 8 free apps. Here's exactly how — with real earnings and setup steps."
 slug: "old-mac-mini-passive-income-machine"
 tags: ["guide", "passive-income", "home-server", "linux"]
 categories: ["Journey"]
-keywords: ["Passive Income 2026", "Home Server", "Linux Mint XFCE", "Self-hosting", "Mac Mini server"]
+keywords: ["make money with mac mini", "ways to make money with mac mini", "how to make money with mac mini", "passive income home server 2026", "Mac Mini server", "Linux Mint XFCE"]
 ShowToc: true
 TocOpen: true
 ---

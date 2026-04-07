@@ -1,11 +1,11 @@
 ---
-title: "Income Stream #2: Why I Added Honeygain to My Server Stack"
+title: "Honeygain Docker Setup [2026] — Run on Linux Server + 10% JumpTask Bonus"
 date: 2026-02-15T09:00:00+01:00
-description: "Complete Honeygain Docker setup guide. Learn how to stack passive income apps on your home server and boost earnings with JumpTask mode."
+description: "Install Honeygain via Docker on any Linux server in 2 minutes. Enable JumpTask mode for 10% extra earnings. Includes $5 free signup bonus."
 slug: "honeygain-docker-setup-guide"
 tags: ["guide", "passive-income", "docker", "honeygain"]
 categories: ["Passive Income", "Docker", "Reviews"]
-keywords: ["Honeygain review 2026", "Honeygain docker install", "passive income apps", "JumpTask wallet", "bandwidth sharing", "Honeygain Linux", "home server passive income"]
+keywords: ["Honeygain review 2026", "Honeygain docker install", "Honeygain docker Linux", "passive income apps", "JumpTask wallet", "bandwidth sharing", "Honeygain Linux", "home server passive income"]
 ShowToc: true
 TocOpen: true
 faq:

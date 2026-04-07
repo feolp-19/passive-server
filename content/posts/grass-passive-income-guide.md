@@ -1,11 +1,11 @@
 ---
-title: "Project 2026: Why Grass Was My First Passive Income Choice (And How to Cash Out)"
+title: "Grass.io Review 2026: Real Earnings & How to Cash Out GRASS Tokens"
 date: 2026-02-08T09:00:00+01:00
-description: "Complete Grass (GetGrass.io) guide for beginners. Learn how to earn passive income selling unused bandwidth, set up Phantom Wallet, and cash out your GRASS tokens on Solana."
+description: "I earn $15-25/month sharing bandwidth with Grass. Here's my setup, real earnings, and a step-by-step guide to cash out GRASS tokens via Phantom Wallet."
 slug: "grass-passive-income-guide"
 tags: ["guide", "passive-income", "crypto", "grass"]
 categories: ["Passive Income", "Crypto", "Reviews"]
-keywords: ["Grass review", "passive income 2026", "how to sell grass token", "phantom wallet setup", "getgrass.io guide", "Grass crypto", "Solana passive income", "bandwidth sharing"]
+keywords: ["Grass review 2026", "grass.io bandwidth sharing earnings 2026", "grass network node earnings 2026", "grass depin earnings 2026 passive income", "how to sell grass token", "phantom wallet setup", "getgrass.io guide", "bandwidth sharing"]
 ShowToc: true
 TocOpen: true
 faq:
